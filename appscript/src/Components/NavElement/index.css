@@ -1,0 +1,39 @@
+.nav-container {
+    border: solid 0px;
+    padding: 20px;
+}
+
+.child-nav-element {
+    display: flex;
+    ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.child-nav-element h1 {
+    font-size: 32px;
+    color: #000;
+    font-weight: bolder;
+    line-height: 100%;
+}
+
+.inner-child-nav-element {
+    display: flex;
+
+    justify-content: center;
+    align-self: center;
+}
+
+.nav-elements {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.nav-elements h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+}

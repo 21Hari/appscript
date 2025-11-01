@@ -1,0 +1,50 @@
+.header-container {
+    text-align: center;
+    ;
+    padding: 50px 20px;
+
+
+
+}
+
+.toggle-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.toggle-label-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.toggle-item-element {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.drop-down-container {
+    position: relative;
+    outline: none;
+    border: none;
+}
+
+.drop-down-elements {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 10;
+    outline: none;
+    border: none;
+    ;
+}
